@@ -1,7 +1,4 @@
 # Banking Management System 
-**Student Name:** [Your Name]  
-**Student ID:** 106216845  
-**Course:** COS10009 - Introduction to Programming
 
 ---
 
