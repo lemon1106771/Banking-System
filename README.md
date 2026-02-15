@@ -11,7 +11,7 @@ Here is how the structure looks. It shows how the interface, parent class, and c
 ## 3. Core OOP Concepts Explained
 
 * **Abstraction:** I made `BankAccount` an **abstract class**. Since you can't have a "generic" account in real life, I used a pure virtual function (`= 0`) for the withdraw method. This forces the specific accounts to decide their own rules.
-* **Interface:** I used `Reportable.h` as an interface. It doesn't store any data; it just acts as a contract that says "any class using this MUST have a `generateReport()` function."
+* **Interface:** I used `Reportable.h` as an interface. It doesn't store any data; it just acts as a rule that says "any class using this MUST have a `generateReport()` function."
 * **Inheritance:** This is the **"Parents-Chikd"** relationship. Both Savings and Premium accounts inherit from `BankAccount`. This allowed me to put shared stuff like `AccountID` and `balance` in one place so I didn't have to rewrite code.
 * **Polymorphism:** I used **Runtime Polymorphism** here. The `Management` class stores everything as `BankAccount*` pointers. When the program runs, it’s smart enough to know which version of `generateReport()` to call based on the actual account type.
 
@@ -23,7 +23,7 @@ I used both of these to keep the design clean:
 
 ## 5. How to Compile and Run
 
-### Prerequisites
+### Requirements
 Make sure you have all 6 `.h` and `.cpp` files in the same folder:
 1. `Reportable.h`
 2. `BankAccount.h`
@@ -34,6 +34,7 @@ Make sure you have all 6 `.h` and `.cpp` files in the same folder:
 
 ### Steps
 1. Open your terminal in the project folder.
-2. Run the compiler command:
+2. Run the compiler command: or just run the .exe file included I have already built in the folder
    ```bash
    g++ main.cpp -o BankingSystem
+
