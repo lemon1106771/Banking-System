@@ -48,5 +48,11 @@ Make sure you have all the header files and the main file in the same folder:
 2. Run the compiler command:
    g++ main.cpp -o BankingSystem
 3. Run the program:
-   * Windows: BankingSystem.exe
-   * Mac/Linux: ./BankingSystem
+   BankingSystem.exe
+
+
+## 6. References & Resources
+These are the tutorials and resources I used to help understand the more difficult C++ concepts like pointers and polymorphism during this project:
+
+* **C++ Banking program for beginners:** [https://youtu.be/TJOysgQkqZY?si=ADvFljQpKtml4h3z]
+* **C++ Object Oriented Programming Crash Course - Introduction + Full Tutorial** [https://youtu.be/0NwsayeOsd4?si=Qv-hbZ3k5aLmM4w3]
