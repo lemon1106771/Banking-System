@@ -7,6 +7,7 @@ This is a console-based app I built to manage different types of bank accounts. 
 
 ## 2. Class Diagram
 The structure below shows how the interface, parent class, and child classes are connected in this project.
+![Class Diagram](diagram.png)
 
 ## 3. Core OOP Concepts in My Code
 
