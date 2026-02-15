@@ -6,7 +6,6 @@
 This is a console-based app I built to manage different types of bank accounts. Instead of just making one big file, I split the logic into different classes to handle **Savings Accounts** (with interest) and **Premium Accounts** (with overdraft limits). It uses a management class to keep everything organized in a single list.
 
 ## 2. Class Diagram
-Here is how the structure looks. It shows how the interface, parent class, and child classes are connected.
 
 ## 3. Core OOP Concepts Explained
 
